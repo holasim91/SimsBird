@@ -35,7 +35,7 @@ if(process.env.NODE_ENV === 'production'){
     app.use(morgan('dev'))
 }
 app.use(cors({
-    origin: ['http://localhost:3030','simsbird.com'], //CORS
+    origin: ['http://localhost:3030','simsbird.com', 'http://13.125.198.99'], //CORS
     credentials: true, //쿠키 백엔드로 전달 
 }))
 
