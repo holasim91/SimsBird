@@ -18,7 +18,7 @@ const passportConfig = require('./passport')
 
 dotenv.config( )
 const app = express()
-const port = 3035
+const port = 80
 db.sequelize.sync()
     .then(() => {
         console.log('DB Connect Success!!!!')
