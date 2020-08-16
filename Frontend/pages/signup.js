@@ -66,7 +66,6 @@ const signup = () => {
     if (!term) {
       return setTermError(true);
     }
-    console.log('잘 가니..? ', email, password, nickname);
     dispatch({
       type: SIGN_UP_REQUEST,
       data: { email, password, nickname },
